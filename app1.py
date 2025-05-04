@@ -6,6 +6,11 @@ from PIL import Image
 
 
 st.title("Reconocimiento óptico de Caracteres")
+st.image(
+    "https://www.adobe.com/es/acrobat/resources/media_1e63dcac97bdfbfd1991836a2fb31d4fba4312d83.png?width=1200&format=pjpg&optimize=medium",
+    caption="Ejemplo de extracción de texto con OCR",
+    use_column_width=True
+)
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
